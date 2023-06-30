@@ -20,13 +20,29 @@ namespace AlgorithDrivenString
 
             return reverseString.ToString();
         }
+
+        //Reversing the string using an array
+        static string ReverseStringArray(string name)
+        {
+            if(string.IsNullOrEmpty(name))
+            {
+                return name;
+            }
+
+            char[] chars = name.ToCharArray();
+
+            var reversedChars = chars.Reverse();
+
+            return reversedChars.ToString();
+        }
         static void Main(String[] args)
         {
             string inputName;
             Console.WriteLine("Enter the word you wish to reverse");
             inputName = Console.ReadLine();
 
-            Console.WriteLine($"The reverse of {inputName} is: {ReverseString(inputName)}");
+            Console.WriteLine($"The reverse of {inputName} is: {ReverseString(inputName)}"); 
+            Console.WriteLine($"The reverse of {inputName} using an array is: {ReverseString(inputName)}");
 
         }
     }
