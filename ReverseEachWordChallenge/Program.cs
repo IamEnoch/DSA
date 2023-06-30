@@ -4,6 +4,11 @@ namespace ReverseEachWordChallenge
 {
     class Program
     {
+        /// <summary>
+        /// Method that reverses input string
+        /// </summary>
+        /// <param name="input">Input string </param>
+        /// <returns>Reversed string</returns>
         static string ReverseString(string input)
         {
             if(string.IsNullOrEmpty(input)) return input;
