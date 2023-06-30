@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ValidateStrings", "..\Valid
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NormalizeStrings", "..\NormalizeStrings\NormalizeStrings.csproj", "{5ECB4954-9978-40EA-B5FE-2B67CB823063}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlgorithmDrivenStrings", "AlgorithmDrivenStrings\AlgorithmDrivenStrings.csproj", "{EA1BF8CD-F3BD-481F-9A62-38D0B8A3D871}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,6 +25,10 @@ Global
 		{5ECB4954-9978-40EA-B5FE-2B67CB823063}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5ECB4954-9978-40EA-B5FE-2B67CB823063}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5ECB4954-9978-40EA-B5FE-2B67CB823063}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA1BF8CD-F3BD-481F-9A62-38D0B8A3D871}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA1BF8CD-F3BD-481F-9A62-38D0B8A3D871}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA1BF8CD-F3BD-481F-9A62-38D0B8A3D871}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA1BF8CD-F3BD-481F-9A62-38D0B8A3D871}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -30,6 +36,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{45FAE0AC-7708-4433-8162-72B2429583D8} = {87BBAC39-292C-4E8C-8E8F-1C25D9704069}
 		{5ECB4954-9978-40EA-B5FE-2B67CB823063} = {87BBAC39-292C-4E8C-8E8F-1C25D9704069}
+		{EA1BF8CD-F3BD-481F-9A62-38D0B8A3D871} = {87BBAC39-292C-4E8C-8E8F-1C25D9704069}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E1310B6F-8432-4060-9648-8A44C4CDFFA2}
