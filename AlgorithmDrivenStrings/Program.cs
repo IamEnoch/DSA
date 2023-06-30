@@ -31,9 +31,9 @@ namespace AlgorithDrivenString
 
             char[] chars = name.ToCharArray();
 
-            var reversedChars = chars.Reverse();
+            Array.Reverse(chars);
 
-            return reversedChars.ToString();
+            return new string(chars);
         }
         static void Main(String[] args)
         {
@@ -42,7 +42,7 @@ namespace AlgorithDrivenString
             inputName = Console.ReadLine();
 
             Console.WriteLine($"The reverse of {inputName} is: {ReverseString(inputName)}"); 
-            Console.WriteLine($"The reverse of {inputName} using an array is: {ReverseString(inputName)}");
+            Console.WriteLine($"The reverse of {inputName} using an array is: {ReverseStringArray(inputName)}");
 
         }
     }
