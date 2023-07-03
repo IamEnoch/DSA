@@ -44,6 +44,12 @@
             //Find if number 30 exists
             Console.WriteLine(BinarySearch(myArray, 30)); //Expected output: False
 
+            Console.WriteLine();
+
+            //Using the inbuit binary search method
+            Console.WriteLine(Array.BinarySearch(myArray, 11)); //Expected output: 4
+            Console.WriteLine(Array.BinarySearch(myArray, 30)); //Expected output: -7
+
         }
     }
 }
