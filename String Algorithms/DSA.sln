@@ -19,6 +19,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinearSearch", "..\Array Al
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinarySearch", "BinarySearch\BinarySearch.csproj", "{F11675B1-ED2C-482B-B642-CFCCFF1D67C5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AggregateAndFilter", "..\Array Algorithms\AggregateAndFilter\AggregateAndFilter.csproj", "{5DA209C1-F5F8-495B-8E1C-8DF25478F30F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -49,6 +51,10 @@ Global
 		{F11675B1-ED2C-482B-B642-CFCCFF1D67C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F11675B1-ED2C-482B-B642-CFCCFF1D67C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F11675B1-ED2C-482B-B642-CFCCFF1D67C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5DA209C1-F5F8-495B-8E1C-8DF25478F30F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DA209C1-F5F8-495B-8E1C-8DF25478F30F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DA209C1-F5F8-495B-8E1C-8DF25478F30F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DA209C1-F5F8-495B-8E1C-8DF25478F30F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -60,6 +66,7 @@ Global
 		{6031F2BE-399A-4400-A7FF-8E185E554845} = {87BBAC39-292C-4E8C-8E8F-1C25D9704069}
 		{75DF34AF-EFE7-4A0D-8EB3-BE6357858B6C} = {DA07A183-4364-41CE-9DE8-F8A80EB8EAC2}
 		{F11675B1-ED2C-482B-B642-CFCCFF1D67C5} = {DA07A183-4364-41CE-9DE8-F8A80EB8EAC2}
+		{5DA209C1-F5F8-495B-8E1C-8DF25478F30F} = {DA07A183-4364-41CE-9DE8-F8A80EB8EAC2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E1310B6F-8432-4060-9648-8A44C4CDFFA2}
