@@ -17,9 +17,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Array Algorithms", "Array A
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinearSearch", "..\Array Algorithms\LinearSearch\LinearSearch.csproj", "{75DF34AF-EFE7-4A0D-8EB3-BE6357858B6C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinarySearch", "BinarySearch\BinarySearch.csproj", "{F11675B1-ED2C-482B-B642-CFCCFF1D67C5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BinarySearch", "BinarySearch\BinarySearch.csproj", "{F11675B1-ED2C-482B-B642-CFCCFF1D67C5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AggregateAndFilter", "..\Array Algorithms\AggregateAndFilter\AggregateAndFilter.csproj", "{5DA209C1-F5F8-495B-8E1C-8DF25478F30F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AggregateAndFilter", "..\Array Algorithms\AggregateAndFilter\AggregateAndFilter.csproj", "{5DA209C1-F5F8-495B-8E1C-8DF25478F30F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReverseArray", "..\Array Algorithms\ReverseArray\ReverseArray.csproj", "{7A3E3DEA-6F5C-4FA9-8B83-01034204DAE5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -55,6 +57,10 @@ Global
 		{5DA209C1-F5F8-495B-8E1C-8DF25478F30F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5DA209C1-F5F8-495B-8E1C-8DF25478F30F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5DA209C1-F5F8-495B-8E1C-8DF25478F30F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A3E3DEA-6F5C-4FA9-8B83-01034204DAE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A3E3DEA-6F5C-4FA9-8B83-01034204DAE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A3E3DEA-6F5C-4FA9-8B83-01034204DAE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A3E3DEA-6F5C-4FA9-8B83-01034204DAE5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -67,6 +73,7 @@ Global
 		{75DF34AF-EFE7-4A0D-8EB3-BE6357858B6C} = {DA07A183-4364-41CE-9DE8-F8A80EB8EAC2}
 		{F11675B1-ED2C-482B-B642-CFCCFF1D67C5} = {DA07A183-4364-41CE-9DE8-F8A80EB8EAC2}
 		{5DA209C1-F5F8-495B-8E1C-8DF25478F30F} = {DA07A183-4364-41CE-9DE8-F8A80EB8EAC2}
+		{7A3E3DEA-6F5C-4FA9-8B83-01034204DAE5} = {DA07A183-4364-41CE-9DE8-F8A80EB8EAC2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E1310B6F-8432-4060-9648-8A44C4CDFFA2}
