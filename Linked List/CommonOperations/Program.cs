@@ -37,5 +37,19 @@ class Program
         }
         Console.WriteLine();
 
+        //Check if the linked list contains a certain element
+        Console.WriteLine("Checking whether the linked list contains the word: Sarah");
+        Console.WriteLine(myLinkedList.Contains("Sarah")); //Expected output: True
+
+        Console.WriteLine();
+
+        //Remove the last element of te linked list
+        Console.WriteLine("Linked list elements after removing the last element(Node)");
+        myLinkedList.RemoveLast();
+        foreach (string item in myLinkedList)
+        {
+            Console.Write(item + "=>"); //Expected output Orange=>Hibiscus=>John=>Doe=>
+        }
+        Console.WriteLine();
     }
 }
