@@ -21,7 +21,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BinarySearch", "BinarySearc
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AggregateAndFilter", "..\Array Algorithms\AggregateAndFilter\AggregateAndFilter.csproj", "{5DA209C1-F5F8-495B-8E1C-8DF25478F30F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReverseArray", "..\Array Algorithms\ReverseArray\ReverseArray.csproj", "{7A3E3DEA-6F5C-4FA9-8B83-01034204DAE5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReverseArray", "..\Array Algorithms\ReverseArray\ReverseArray.csproj", "{7A3E3DEA-6F5C-4FA9-8B83-01034204DAE5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NewFolder1", "NewFolder1", "{8434791E-CBC5-4AC2-A015-8361BEE6BEBE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
