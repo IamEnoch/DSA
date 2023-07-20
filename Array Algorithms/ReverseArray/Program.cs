@@ -19,9 +19,7 @@
         {
             int[] testArray = {1,2,3,4,2,5,4,3,4,6,7,4,4,6,6};
             Array.ForEach(ReverseArray(testArray), Console.Write); //Expected output: 664476434524321
-
-
-
+            
         }
     }
 }

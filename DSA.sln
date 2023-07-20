@@ -25,6 +25,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReverseArray", "..\Array Al
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Linked List", "Linked List", "{8434791E-CBC5-4AC2-A015-8361BEE6BEBE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommonOperations", "..\Linked List\CommonOperations\CommonOperations.csproj", "{F5FCC050-7D79-473B-8BA8-3735BCB20A04}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{7A3E3DEA-6F5C-4FA9-8B83-01034204DAE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7A3E3DEA-6F5C-4FA9-8B83-01034204DAE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7A3E3DEA-6F5C-4FA9-8B83-01034204DAE5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5FCC050-7D79-473B-8BA8-3735BCB20A04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5FCC050-7D79-473B-8BA8-3735BCB20A04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5FCC050-7D79-473B-8BA8-3735BCB20A04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5FCC050-7D79-473B-8BA8-3735BCB20A04}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -76,6 +82,7 @@ Global
 		{F11675B1-ED2C-482B-B642-CFCCFF1D67C5} = {DA07A183-4364-41CE-9DE8-F8A80EB8EAC2}
 		{5DA209C1-F5F8-495B-8E1C-8DF25478F30F} = {DA07A183-4364-41CE-9DE8-F8A80EB8EAC2}
 		{7A3E3DEA-6F5C-4FA9-8B83-01034204DAE5} = {DA07A183-4364-41CE-9DE8-F8A80EB8EAC2}
+		{F5FCC050-7D79-473B-8BA8-3735BCB20A04} = {8434791E-CBC5-4AC2-A015-8361BEE6BEBE}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E1310B6F-8432-4060-9648-8A44C4CDFFA2}
