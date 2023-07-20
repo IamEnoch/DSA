@@ -1,0 +1,90 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33723.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "String Algorithms", "String Algorithms", "{87BBAC39-292C-4E8C-8E8F-1C25D9704069}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ValidateStrings", "..\ValidateStrings\ValidateStrings.csproj", "{45FAE0AC-7708-4433-8162-72B2429583D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NormalizeStrings", "..\NormalizeStrings\NormalizeStrings.csproj", "{5ECB4954-9978-40EA-B5FE-2B67CB823063}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AlgorithmDrivenStrings", "AlgorithmDrivenStrings\AlgorithmDrivenStrings.csproj", "{EA1BF8CD-F3BD-481F-9A62-38D0B8A3D871}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReverseEachWordChallenge", "ReverseEachWordChallenge\ReverseEachWordChallenge.csproj", "{6031F2BE-399A-4400-A7FF-8E185E554845}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Array Algorithms", "Array Algorithms", "{DA07A183-4364-41CE-9DE8-F8A80EB8EAC2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinearSearch", "..\Array Algorithms\LinearSearch\LinearSearch.csproj", "{75DF34AF-EFE7-4A0D-8EB3-BE6357858B6C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BinarySearch", "BinarySearch\BinarySearch.csproj", "{F11675B1-ED2C-482B-B642-CFCCFF1D67C5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AggregateAndFilter", "..\Array Algorithms\AggregateAndFilter\AggregateAndFilter.csproj", "{5DA209C1-F5F8-495B-8E1C-8DF25478F30F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReverseArray", "..\Array Algorithms\ReverseArray\ReverseArray.csproj", "{7A3E3DEA-6F5C-4FA9-8B83-01034204DAE5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Linked List", "Linked List", "{8434791E-CBC5-4AC2-A015-8361BEE6BEBE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommonOperations", "..\Linked List\CommonOperations\CommonOperations.csproj", "{F5FCC050-7D79-473B-8BA8-3735BCB20A04}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{45FAE0AC-7708-4433-8162-72B2429583D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45FAE0AC-7708-4433-8162-72B2429583D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45FAE0AC-7708-4433-8162-72B2429583D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45FAE0AC-7708-4433-8162-72B2429583D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5ECB4954-9978-40EA-B5FE-2B67CB823063}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5ECB4954-9978-40EA-B5FE-2B67CB823063}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5ECB4954-9978-40EA-B5FE-2B67CB823063}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5ECB4954-9978-40EA-B5FE-2B67CB823063}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA1BF8CD-F3BD-481F-9A62-38D0B8A3D871}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA1BF8CD-F3BD-481F-9A62-38D0B8A3D871}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA1BF8CD-F3BD-481F-9A62-38D0B8A3D871}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA1BF8CD-F3BD-481F-9A62-38D0B8A3D871}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6031F2BE-399A-4400-A7FF-8E185E554845}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6031F2BE-399A-4400-A7FF-8E185E554845}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6031F2BE-399A-4400-A7FF-8E185E554845}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6031F2BE-399A-4400-A7FF-8E185E554845}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75DF34AF-EFE7-4A0D-8EB3-BE6357858B6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75DF34AF-EFE7-4A0D-8EB3-BE6357858B6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75DF34AF-EFE7-4A0D-8EB3-BE6357858B6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75DF34AF-EFE7-4A0D-8EB3-BE6357858B6C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F11675B1-ED2C-482B-B642-CFCCFF1D67C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F11675B1-ED2C-482B-B642-CFCCFF1D67C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F11675B1-ED2C-482B-B642-CFCCFF1D67C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F11675B1-ED2C-482B-B642-CFCCFF1D67C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5DA209C1-F5F8-495B-8E1C-8DF25478F30F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DA209C1-F5F8-495B-8E1C-8DF25478F30F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DA209C1-F5F8-495B-8E1C-8DF25478F30F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DA209C1-F5F8-495B-8E1C-8DF25478F30F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A3E3DEA-6F5C-4FA9-8B83-01034204DAE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A3E3DEA-6F5C-4FA9-8B83-01034204DAE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A3E3DEA-6F5C-4FA9-8B83-01034204DAE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A3E3DEA-6F5C-4FA9-8B83-01034204DAE5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5FCC050-7D79-473B-8BA8-3735BCB20A04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5FCC050-7D79-473B-8BA8-3735BCB20A04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5FCC050-7D79-473B-8BA8-3735BCB20A04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5FCC050-7D79-473B-8BA8-3735BCB20A04}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{45FAE0AC-7708-4433-8162-72B2429583D8} = {87BBAC39-292C-4E8C-8E8F-1C25D9704069}
+		{5ECB4954-9978-40EA-B5FE-2B67CB823063} = {87BBAC39-292C-4E8C-8E8F-1C25D9704069}
+		{EA1BF8CD-F3BD-481F-9A62-38D0B8A3D871} = {87BBAC39-292C-4E8C-8E8F-1C25D9704069}
+		{6031F2BE-399A-4400-A7FF-8E185E554845} = {87BBAC39-292C-4E8C-8E8F-1C25D9704069}
+		{75DF34AF-EFE7-4A0D-8EB3-BE6357858B6C} = {DA07A183-4364-41CE-9DE8-F8A80EB8EAC2}
+		{F11675B1-ED2C-482B-B642-CFCCFF1D67C5} = {DA07A183-4364-41CE-9DE8-F8A80EB8EAC2}
+		{5DA209C1-F5F8-495B-8E1C-8DF25478F30F} = {DA07A183-4364-41CE-9DE8-F8A80EB8EAC2}
+		{7A3E3DEA-6F5C-4FA9-8B83-01034204DAE5} = {DA07A183-4364-41CE-9DE8-F8A80EB8EAC2}
+		{F5FCC050-7D79-473B-8BA8-3735BCB20A04} = {8434791E-CBC5-4AC2-A015-8361BEE6BEBE}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E1310B6F-8432-4060-9648-8A44C4CDFFA2}
+	EndGlobalSection
+EndGlobal
