@@ -1,6 +1,6 @@
 ﻿using System.Collections;
 
-namespace AggragateAndFilter
+namespace AggregateAndFilter
 {
     class Program
     {
@@ -30,8 +30,8 @@ namespace AggragateAndFilter
                 {
                     arrayList.Add(i);
                 }
-
             }
+
             return (int[])arrayList.ToArray(typeof(int));
         }
 
@@ -42,8 +42,6 @@ namespace AggragateAndFilter
 
             int[] result = FindEvenNumber(myArray, myArray2);
             Array.ForEach(result, Console.WriteLine);
-
         }
     }
-
 }
