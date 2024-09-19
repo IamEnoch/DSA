@@ -1,4 +1,4 @@
-﻿namespace ArrayAlgorithms
+﻿namespace BinarySearch
 {
     class Program
     {
