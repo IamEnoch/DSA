@@ -13,23 +13,23 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Algorithms", "Algorithms", 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataStructures", "DataStructures", "{D518E1FE-7A59-4AC4-88DE-6ACAB8E7FBC6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AggregateAndFilter", "Array Algorithms\AggregateAndFilter\AggregateAndFilter.csproj", "{FFB71FFB-BF48-4712-9821-DC6459066723}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AggregateAndFilter", "DataStructures\Array\AggregateAndFilter\AggregateAndFilter.csproj", "{FFB71FFB-BF48-4712-9821-DC6459066723}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinearSearch", "Array Algorithms\LinearSearch\LinearSearch.csproj", "{39CE3D22-122A-497A-89EC-FB42A568C3FC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinearSearch", "DataStructures\Array\LinearSearch\LinearSearch.csproj", "{39CE3D22-122A-497A-89EC-FB42A568C3FC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReverseArray", "Array Algorithms\ReverseArray\ReverseArray.csproj", "{76DABEA2-C15A-498C-8635-79C2337D56E0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReverseArray", "DataStructures\Array\ReverseArray\ReverseArray.csproj", "{76DABEA2-C15A-498C-8635-79C2337D56E0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommonOperations", "Linked List\CommonOperations\CommonOperations.csproj", "{337DC9F0-44F8-4EC2-B77E-D2D6B63C6938}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommonOperations", "DataStructures\LinkedList\CommonOperations\CommonOperations.csproj", "{337DC9F0-44F8-4EC2-B77E-D2D6B63C6938}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlgorithmDrivenStrings", "String Algorithms\AlgorithmDrivenStrings\AlgorithmDrivenStrings.csproj", "{9380BCFE-252B-4AC2-AD99-651AFB493EEF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlgorithmDrivenStrings", "Algorithms\Strings\AlgorithmDrivenStrings\AlgorithmDrivenStrings.csproj", "{9380BCFE-252B-4AC2-AD99-651AFB493EEF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NormalizeStrings", "String Algorithms\NormalizeStrings\NormalizeStrings.csproj", "{27437CE0-DB8D-42B0-B310-BC058FDAE18F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NormalizeStrings", "Algorithms\Strings\NormalizeStrings\NormalizeStrings.csproj", "{27437CE0-DB8D-42B0-B310-BC058FDAE18F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinarySearch", "String Algorithms\BinarySearch\BinarySearch.csproj", "{AB61CB6F-A040-46BF-8000-0EF5A77DADC2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinarySearch", "DataStructures\Array\BinarySearch\BinarySearch.csproj", "{AB61CB6F-A040-46BF-8000-0EF5A77DADC2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReverseEachWordChallenge", "String Algorithms\ReverseEachWordChallenge\ReverseEachWordChallenge.csproj", "{D99DA0FB-46FF-4CE9-892B-C7A3FB513525}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReverseEachWordChallenge", "Algorithms\Strings\ReverseEachWordChallenge\ReverseEachWordChallenge.csproj", "{D99DA0FB-46FF-4CE9-892B-C7A3FB513525}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ValidateStrings", "String Algorithms\ValidateStrings\ValidateStrings.csproj", "{C6C4B59C-FCDF-4E0A-A206-DF6A0DBEFF7F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ValidateStrings", "Algorithms\Strings\ValidateStrings\ValidateStrings.csproj", "{C6C4B59C-FCDF-4E0A-A206-DF6A0DBEFF7F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -79,7 +79,6 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{8434791E-CBC5-4AC2-A015-8361BEE6BEBE} = {D518E1FE-7A59-4AC4-88DE-6ACAB8E7FBC6}
-		{87BBAC39-292C-4E8C-8E8F-1C25D9704069} = {D518E1FE-7A59-4AC4-88DE-6ACAB8E7FBC6}
 		{DA07A183-4364-41CE-9DE8-F8A80EB8EAC2} = {D518E1FE-7A59-4AC4-88DE-6ACAB8E7FBC6}
 		{FFB71FFB-BF48-4712-9821-DC6459066723} = {DA07A183-4364-41CE-9DE8-F8A80EB8EAC2}
 		{39CE3D22-122A-497A-89EC-FB42A568C3FC} = {DA07A183-4364-41CE-9DE8-F8A80EB8EAC2}
@@ -90,6 +89,7 @@ Global
 		{AB61CB6F-A040-46BF-8000-0EF5A77DADC2} = {DA07A183-4364-41CE-9DE8-F8A80EB8EAC2}
 		{D99DA0FB-46FF-4CE9-892B-C7A3FB513525} = {87BBAC39-292C-4E8C-8E8F-1C25D9704069}
 		{C6C4B59C-FCDF-4E0A-A206-DF6A0DBEFF7F} = {87BBAC39-292C-4E8C-8E8F-1C25D9704069}
+		{87BBAC39-292C-4E8C-8E8F-1C25D9704069} = {F495CDED-65D3-45C1-9FB6-8B14C6985F7B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E1310B6F-8432-4060-9648-8A44C4CDFFA2}
