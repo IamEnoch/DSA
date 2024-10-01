@@ -1,13 +1,11 @@
-﻿using System.Collections.Generic;
+﻿namespace CommonOperations;
 
-namespace CommonOperations;
-
-class Program
+public static class Program
 {
-    static void Main(string[] args)
+    private static void Main(string[] args)
     {
         //Create the linked list
-        LinkedList<string> myLinkedList = new LinkedList<string>();
+        var myLinkedList = new LinkedList<string>();
 
         //Add elements to the linked list
         //Adding elements from the tail
@@ -17,10 +15,7 @@ class Program
 
         //Iterate through the linked list to print the elements in the linked list
         Console.WriteLine("Printing the linked list elements");
-        foreach (string item in myLinkedList)
-        {
-            Console.Write(item + "=>"); //Expected output John=>Doe=>Sarah=>
-        }
+        foreach (var item in myLinkedList) Console.Write(item + "=>"); //Expected output John=>Doe=>Sarah=>
         Console.WriteLine();
 
         //Adding elements from the head
@@ -31,10 +26,8 @@ class Program
 
         //Iterate through the linked list to print the elements in the linked list
         Console.WriteLine("Printing the linked list elements");
-        foreach (string item in myLinkedList)
-        {
-            Console.Write(item + "=>"); //Expected output Orange=>Hibiscus=>John=>Doe=>Sarah=>
-        }
+        foreach (var item in
+                 myLinkedList) Console.Write(item + "=>"); //Expected output Orange=>Hibiscus=>John=>Doe=>Sarah=>
         Console.WriteLine();
 
         //Check if the linked list contains a certain element
@@ -46,10 +39,7 @@ class Program
         //Remove the last element of te linked list
         Console.WriteLine("Linked list elements after removing the last element(Node)");
         myLinkedList.RemoveLast();
-        foreach (string item in myLinkedList)
-        {
-            Console.Write(item + "=>"); //Expected output Orange=>Hibiscus=>John=>Doe=>
-        }
+        foreach (var item in myLinkedList) Console.Write(item + "=>"); //Expected output Orange=>Hibiscus=>John=>Doe=>
         Console.WriteLine();
     }
 }
