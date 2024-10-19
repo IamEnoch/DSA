@@ -19,11 +19,9 @@
             {
                 //calculate mid
                 int mid = (min + max) / 2;
-                if (array[mid] == item)
-                {
-                    return true;
-                
-                }else if (item > array[mid])
+                if (array[mid] == item) return true;
+
+                if (item > array[mid])
                 {
                     min = mid + 1;
                 }
@@ -32,8 +30,10 @@
                     max = mid - 1;
                 }
             }
+
             return false;
         }
+
         static void Main(string[] args)
         {
             int[] myArray = { 2, 3, 7, 9, 11, 20 };
@@ -49,7 +49,6 @@
             //Using the inbuit binary search method
             Console.WriteLine(Array.BinarySearch(myArray, 11)); //Expected output: 4
             Console.WriteLine(Array.BinarySearch(myArray, 30)); //Expected output: -7
-
         }
     }
 }
