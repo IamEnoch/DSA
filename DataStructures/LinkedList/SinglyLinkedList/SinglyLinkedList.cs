@@ -3,19 +3,14 @@ namespace SinglyLinkedList;
 public class SinglyLinkedList<T>
 {
     //Head of the linked list
-    private Node<T>? head;
-
-    public SinglyLinkedList()
-    {
-        head = null;
-    }
+    private Node<T>? _head = null;
 
     //Add first node
     public void AddFirst(T data)
     {
         var newNode = new Node<T>(data);
-        newNode.Next = head;
-        head = newNode;
+        newNode.Next = _head;
+        _head = newNode;
     }
 
     // Add last node
@@ -23,13 +18,13 @@ public class SinglyLinkedList<T>
     {
         var newNode = new Node<T>(data);
 
-        if (head == null)
+        if (_head == null)
         {
-            head = newNode;
+            _head = newNode;
         }
         else
         {
-            Node<T> current = head;
+            Node<T> current = _head;
             while (current.Next != null) current = current.Next;
 
             current.Next = newNode;
@@ -39,7 +34,7 @@ public class SinglyLinkedList<T>
     //Print all nodes
     public void PrintAllNodes()
     {
-        var current = head;
+        var current = _head;
         while (current != null)
         {
             Console.Write(current.Data + " -> ");

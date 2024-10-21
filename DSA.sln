@@ -45,6 +45,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CircularLinkedList", "Circu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SinglyLinkedList", "DataStructures\LinkedList\SinglyLinkedList\SinglyLinkedList.csproj", "{C2144D0B-BE19-4254-B37A-D3129883CCE1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoublyLinkedList", "DataStructures\LinkedList\DoublyLinkedList\DoublyLinkedList.csproj", "{FD175A86-6730-4C27-8DD4-EE5DE15216A9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -95,6 +97,10 @@ Global
 		{C2144D0B-BE19-4254-B37A-D3129883CCE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C2144D0B-BE19-4254-B37A-D3129883CCE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C2144D0B-BE19-4254-B37A-D3129883CCE1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD175A86-6730-4C27-8DD4-EE5DE15216A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD175A86-6730-4C27-8DD4-EE5DE15216A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD175A86-6730-4C27-8DD4-EE5DE15216A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD175A86-6730-4C27-8DD4-EE5DE15216A9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -119,6 +125,7 @@ Global
 		{B3876744-A992-4B03-8DCD-DBDD9CCDB014} = {8434791E-CBC5-4AC2-A015-8361BEE6BEBE}
 		{7042F24D-6639-4E38-9F51-BBCAE119D01A} = {8434791E-CBC5-4AC2-A015-8361BEE6BEBE}
 		{C2144D0B-BE19-4254-B37A-D3129883CCE1} = {A2DE1002-6421-4756-89C0-5A3E733254E1}
+		{FD175A86-6730-4C27-8DD4-EE5DE15216A9} = {B3876744-A992-4B03-8DCD-DBDD9CCDB014}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E1310B6F-8432-4060-9648-8A44C4CDFFA2}
