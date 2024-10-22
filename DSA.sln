@@ -51,6 +51,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HashMap", "HashMap", "{02C6
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HashMapImplementation", "DataStructures\HashMapImplementation\HashMapImplementation.csproj", "{4C1B9B83-EF96-4A04-AC46-AD405CF7BD66}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HashSet", "HashSet", "{FFFA42B5-DB2B-4B53-9B2B-28D1EFA10C4A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HashSetImplementation", "DataStructures\HashSetImplementation\HashSetImplementation.csproj", "{A8D145EF-90E8-4396-8B78-649105467980}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -109,6 +113,10 @@ Global
 		{4C1B9B83-EF96-4A04-AC46-AD405CF7BD66}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4C1B9B83-EF96-4A04-AC46-AD405CF7BD66}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4C1B9B83-EF96-4A04-AC46-AD405CF7BD66}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8D145EF-90E8-4396-8B78-649105467980}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8D145EF-90E8-4396-8B78-649105467980}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8D145EF-90E8-4396-8B78-649105467980}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8D145EF-90E8-4396-8B78-649105467980}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -136,6 +144,8 @@ Global
 		{FD175A86-6730-4C27-8DD4-EE5DE15216A9} = {B3876744-A992-4B03-8DCD-DBDD9CCDB014}
 		{02C6668F-B572-44B5-ADA0-1A05BB1B4329} = {D518E1FE-7A59-4AC4-88DE-6ACAB8E7FBC6}
 		{4C1B9B83-EF96-4A04-AC46-AD405CF7BD66} = {02C6668F-B572-44B5-ADA0-1A05BB1B4329}
+		{FFFA42B5-DB2B-4B53-9B2B-28D1EFA10C4A} = {D518E1FE-7A59-4AC4-88DE-6ACAB8E7FBC6}
+		{A8D145EF-90E8-4396-8B78-649105467980} = {FFFA42B5-DB2B-4B53-9B2B-28D1EFA10C4A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E1310B6F-8432-4060-9648-8A44C4CDFFA2}
